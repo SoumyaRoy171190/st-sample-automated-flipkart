@@ -8,17 +8,17 @@ public class CommonListener implements ITestListener{
 
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
-		
+		System.out.println(result.getName() + " has been started");
 	}
 
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
-		
+		System.out.println(result.getName() + " has been successfully run");
 	}
 
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
-		
+		System.out.println(result.getName() + " has been failed");
 	}
 
 	public void onTestSkipped(ITestResult result) {
